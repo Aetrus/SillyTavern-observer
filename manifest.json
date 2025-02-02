@@ -1,0 +1,12 @@
+{
+  "display_name": "Goose",
+  "loading_order": 1000,
+  "requires": [],
+  "optional": [],
+  "js": "HypeBotExtension.js",
+  "css": "style.css",
+  "author": "Your Name",
+  "version": "1.0.0",
+  "homePage": "https://github.com/yourusername/HypeBotExtension",
+  "auto_update": true
+}

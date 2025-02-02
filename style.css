@@ -1,0 +1,45 @@
+.hype-bot-container {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 400px;
+    height: 600px;
+    background: #222;
+    color: #fff;
+    border: 2px solid #666;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .hype-bot-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .bot-selector,
+  .chat-window,
+  .chat-controls,
+  .add-bot-form {
+    margin: 10px;
+  }
+  
+  .chat-window {
+    flex: 1;
+    overflow-y: auto;
+    background: #333;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .chat-message {
+    margin-bottom: 10px;
+  }
+  
+  .chat-role {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
